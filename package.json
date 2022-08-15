@@ -2,7 +2,6 @@
   "name": "goit-js-hw-09",
   "version": "1.0.0",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "main": "index.html",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
@@ -17,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/SergeyBelozub/goit-js-hw-09/issues"
   },
-  "homepage": "https://github.com/SergeyBelozub/goit-js-hw-09",
+  "homepage": "https://sergeybelozub.github.io/goit-js-hw-09",
   "dependencies": {
     "flatpickr": "^4.6.13",
     "joi": "^17.6.0",
