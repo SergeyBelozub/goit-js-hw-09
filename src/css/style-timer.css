@@ -1,0 +1,18 @@
+.timer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.field {
+  border: 5px solid rgba(11, 80, 42, 0.479);
+  border-radius: 10px;
+  background-color: rgb(221, 221, 221);
+}
+
+.value {
+  color: red;
+}
+.label {
+  color: rgb(49, 5, 121);
+}

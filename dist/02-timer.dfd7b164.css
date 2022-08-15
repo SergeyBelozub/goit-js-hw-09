@@ -1,0 +1,22 @@
+.timer {
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  display: flex;
+}
+
+.field {
+  background-color: #ddd;
+  border: 5px solid #0b502a7a;
+  border-radius: 10px;
+}
+
+.value {
+  color: red;
+}
+
+.label {
+  color: #310579;
+}
+
+/*# sourceMappingURL=02-timer.dfd7b164.css.map */

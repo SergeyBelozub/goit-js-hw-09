@@ -615,7 +615,7 @@ const timer = new Timer();
 (0, _flatpickrDefault.default)(refs.inputDate, options);
 refs.startBtn.addEventListener("click", ()=>timer.startTimer());
 
-},{"flatpickr":"llQu5","flatpickr/dist/flatpickr.min.css":"eVN6V","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"llQu5":[function(require,module,exports) {
+},{"flatpickr":"llQu5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","flatpickr/dist/flatpickr.min.css":"eVN6V"}],"llQu5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _options = require("./types/options");

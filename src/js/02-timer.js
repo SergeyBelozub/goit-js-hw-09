@@ -1,15 +1,14 @@
-import flatpickr from 'flatpickr';
-import 'flatpickr/dist/flatpickr.min.css';
-
+import flatpickr from "flatpickr";
+import "flatpickr/dist/flatpickr.min.css";
 
 let selectedTime = null;
 const refs = {
-  inputDate: document.querySelector('#datetime-picker'),
-  startBtn: document.querySelector('button[data-start]'),
-  days: document.querySelector('span[data-days]'),
-  hours: document.querySelector('span[data-hours]'),
-  minutes: document.querySelector('span[data-minutes]'),
-  seconds: document.querySelector('span[data-seconds]'),
+  inputDate: document.querySelector("#datetime-picker"),
+  startBtn: document.querySelector("button[data-start]"),
+  days: document.querySelector("span[data-days]"),
+  hours: document.querySelector("span[data-hours]"),
+  minutes: document.querySelector("span[data-minutes]"),
+  seconds: document.querySelector("span[data-seconds]"),
 };
 
 function convertMs(ms) {
@@ -32,7 +31,7 @@ function convertMs(ms) {
 }
 
 function pad(value) {
-  return String(value).padStart(2, '0');
+  return String(value).padStart(2, "0");
 }
 
 const options = {
@@ -42,7 +41,7 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
     if (selectedDates[0] < Date.now()) {
-      Notify.failure('Please choose a date in the future');
+      Notify.failure("Please choose a date in the future");
       selectedDates[0] = new Date();
     } else {
       refs.startBtn.disabled = false;
@@ -89,4 +88,4 @@ class Timer {
 
 const timer = new Timer();
 flatpickr(refs.inputDate, options);
-refs.startBtn.addEventListener('click', () => timer.startTimer());
+refs.startBtn.addEventListener("click", () => timer.startTimer());
