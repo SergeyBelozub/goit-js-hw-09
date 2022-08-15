@@ -532,10 +532,6 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"8tzFL":[function(require,module,exports) {
-function createPromise(position, delay) {
-    const shouldResolve = Math.random() > 0.3;
-    shouldResolve;
-}
 
 },{}]},["9061L","8tzFL"], "8tzFL", "parcelRequire7bc7")
 
